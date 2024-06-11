@@ -19,9 +19,7 @@
     
                     <div class="flex flex-col mt-8 space-y-3 sm:-mx-2 sm:flex-row sm:justify-center sm:space-y-0">
     
-                        <a class="px-6 py-3 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none sm:mx-2" href="/">
-                            Home
-                        </a>
+                        <router-link to="/" class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-200">Home <span aria-hidden="true">→</span></router-link>
                     </div>
                 </div>
             </section>

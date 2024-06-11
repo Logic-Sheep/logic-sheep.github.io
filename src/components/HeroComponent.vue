@@ -64,8 +64,7 @@
             <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-200">Building the next generation of small models</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
               <!-- <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Try our online demos</a> -->
-
-              <a href="#" class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-200">Try our available demos <span aria-hidden="true">→</span></a>
+              <router-link to="/comingsoon" class="text-sm font-semibold leading-6 text-gray-900 dark:text-gray-200">Try our available demos <span aria-hidden="true">→</span></router-link>
             </div>
           </div>
         </div>
@@ -89,6 +88,6 @@
     { name: 'Team', href: '#team' },
     { name: 'Contact', href: '#contact' },
   ]
-  
+
   const mobileMenuOpen = ref(false)
   </script>
