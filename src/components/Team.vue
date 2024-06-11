@@ -1,12 +1,10 @@
 <template>
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900" id="team">
         <div class="container px-6 py-10 mx-auto">
-            <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Our
-                Executive Team</h1>
+            <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Our Team</h1>
 
             <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error
-                alias, adipisci rem similique, at omnis eligendi optio eos harum.
+                With a commitment to excellence and a collaborative approach, we drive technological advancements from concept to deployment.
             </p>
             <div class="grid gap-8 mt-8 xl:mt-16" :class="team_members.length <= 2 ? 'grid-cols-' : 'md:grid-cols-2 xl:grid-cols-3'">
             <!-- <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-1"> -->
@@ -40,20 +38,20 @@ import { github_path_svg, reddit_path_svg } from './models/const';
 const team_members = [
     {
         id: 1,
-        name: 'Olivia Wathan',
-        role: 'Lead designer',
-        image: 'https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80',
+        name: 'Sebastian-Ion Nae',
+        role: 'R&D Engineer',
+        image: 'https://avatars.githubusercontent.com/u/19248295?v=4',
         links:[
-            {
-                id: 'reddit',
-                url: '#',
-                label: 'Reddit',
-                viewBox: '0 0 24 24',
-                path: reddit_path_svg
-            },
+            // {
+            //     id: 'reddit',
+            //     url: '#',
+            //     label: 'Reddit',
+            //     viewBox: '0 0 24 24',
+            //     path: reddit_path_svg
+            // },
             {
                 id: 'github',
-                url: '#',
+                url: 'https://github.com/SheepSeb',
                 label: 'Github',
                 viewBox: '0 0 24 24',
                 path:github_path_svg

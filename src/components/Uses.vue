@@ -1,66 +1,84 @@
 <template>
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900" id="features">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br> awesome <span class="underline decoration-blue-500">Components</span></h1>
+        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">explore our <br> awesome <span class="underline decoration-blue-500">Team skills</span></h1>
 
         <p class="mt-4 text-gray-500 xl:mt-6 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+            Our expertise in AI, computer vision, and robotics enables us to deliver cutting-edge products that transform industries and improve lives.
         </p>
+        
 
-        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
+        <div class="grid grid-cols-2 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
+
+            <div class="space-y-3">
+                <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
+                    <img class="w-20 h-20" src="../assets/processor.svg" alt="">
+                </span>
+
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Computer Vision</h1>
+
+                <p class="text-gray-500 dark:text-gray-300">
+                    By enabling machines to interpret and understand visual information, computer vision drives innovation across numerous industries, enhancing efficiency and user experience.
+                </p>
+            </div>
+
+            <div class="space-y-3">
+                <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
+                    <img class="w-20 h-20" src="../assets/ai.svg" alt="">
+                </span>
+
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Robotics & Control</h1>
+
+                <p class="text-gray-500 dark:text-gray-300">
+                    Creating intelligent, autonomous systems through cutting-edge algorithms and precision engineering. We develop innovative solutions that enable robots to operate seamlessly and efficiently in various environments.
+                </p>
+            </div>
+
+            <div class="space-y-3">
+                <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
+                    <img class="w-20 h-20" src="../assets/natural-language-processing.svg" alt="">
+                </span>
+
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Natural Language Processing</h1>
+
+                <p class="text-gray-500 dark:text-gray-300">
+                    Unlock the transformative capabilities of Natural Language Processing (NLP) with RAG and LLM technologies.
+                </p>
+            </div>
             <div class="space-y-3">
                 <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
                     <img class="w-20 h-20" src="../assets/rustacean-orig-noshadow.svg" alt="">
                 </span>
 
-                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Copy & paste components</h1>
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Rust Based Software</h1>
 
                 <p class="text-gray-500 dark:text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                    Rust is increasingly used in artificial intelligence software for its performance, safety, and concurrency advantages, enabling efficient and reliable model training and deployment.
                 </p>
-
-                <a href="#" class="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                    <span class="mx-1">read more</span>
-                    <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
             </div>
 
             <div class="space-y-3">
                 <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                    </svg>
+                    <img class="w-20 h-20" src="../assets/python-5.svg" alt="">
                 </span>
 
-                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configuration</h1>
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Fast Prototyping using Python</h1>
 
                 <p class="text-gray-500 dark:text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                    Its versatility and ease of use make it ideal for quickly turning concepts into functional prototypes, streamlining the path from ideation to implementation.
                 </p>
-
-                <a href="#" class="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                    <span class="mx-1">read more</span>
-                    <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
             </div>
 
             <div class="space-y-3">
                 <span class="inline-block p-3 text-blue-500 bg-blue-100 rounded-full dark:text-white dark:bg-blue-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                    </svg>
+                    <img class="w-20 h-20" src="../assets/c-1.svg" alt="">
                 </span>
 
-                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">New Components Every month</h1>
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Compability with most systems</h1>
 
                 <p class="text-gray-500 dark:text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
+                    Allowing seamless integration and performance across diverse platforms. Its low-level access and widespread adoption make it the go-to choice for developing efficient, portable applications.
                 </p>
-
-                <a href="#" class="inline-flex items-center -mx-1 text-sm text-blue-500 capitalize transition-colors duration-300 transform dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-                    <span class="mx-1">read more</span>
-                    <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
             </div>
         </div>
     </div>
